@@ -1,0 +1,35 @@
+# CakePHP temporary files
+/tmp/*
+!/tmp/cache/
+!/tmp/cache/models/
+!/tmp/cache/persistent/
+!/tmp/cache/views/
+!/tmp/logs/
+!/tmp/sessions/
+!/tmp/tests/
+
+# Logs
+/logs/*
+*.log
+
+# Local configuration containing database password
+/config/app_local.php
+
+# Composer dependencies
+/vendor/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# User-uploaded application files
+/webroot/uploads/*
+!/webroot/uploads/.gitkeep
